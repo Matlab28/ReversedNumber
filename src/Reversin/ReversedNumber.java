@@ -21,5 +21,17 @@ public class ReversedNumber {
         } else {
             System.out.println("Your number '" + originalNumber + "' is not a palindrome.");
         }
+
+
+        int factNum = 5;
+        System.out.println("\nEnter the number for calculating its factorial: " + factNum);
+        int sum = 1;
+
+        for (int i = 1; i <= factNum ; i++) {
+            sum *= i;
+        }
+
+        System.out.println("Answer: " + sum + "!");
+
     }
 }
